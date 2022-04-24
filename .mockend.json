@@ -28,7 +28,7 @@
   },
   "Users":{
     "sex":{
-      string['m', 'f']
+      "string"["m", "f"]
     } 
   }
 }
