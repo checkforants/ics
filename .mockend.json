@@ -24,11 +24,19 @@
     },
     "text":{
       "loremSentences": { "minLength": 5, "maxLength": 400 }
+    },
+    "userComments": {
+      "hasMany": "Comment"
     }
   },
   "User":{
     "sex":{
       "string" : ["m", "f"]
     } 
+  },
+  "Comment":{
+      "text":{
+      "loremSentences": { "minLength": 5, "maxLength": 400 }
+    }
   }
 }
