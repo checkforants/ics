@@ -1,10 +1,14 @@
 {
   "Post": {
-    "userComments": {
-      "hasMany" : "Comment"
+    "title": { "string": {} },
+    "comments": {
+      "hasMany": "Comment"
     }
   },
   "Comment": {
-    "body": { "string": {} }
-   }
+    "body": { "string": {} },
+    "post": {
+      "belongsTo": "Post"
+    }
+  }
 }
