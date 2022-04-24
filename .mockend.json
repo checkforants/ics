@@ -1,7 +1,9 @@
 {
   "Post": {
     "userComments": {
-      "hasMany": "Comment"
+      "hasMany": {
+            "body": { "string": {} }
+           }
     }
   },
    "Comment": {
