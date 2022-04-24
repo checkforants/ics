@@ -25,7 +25,7 @@
     "text":{
       "loremSentences": { "minLength": 5, "maxLength": 400 }
     }
-  }
+  },
   "users":{
     "sex":{
       "regexp": "m|f?"
