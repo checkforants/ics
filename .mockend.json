@@ -8,7 +8,6 @@
       }
     },
     "userId": { "int": { "min": 1, "max": 11 } },
-    "female": { "boolean": {} },
     "likes": { "int": { "min": 0, "max": 20 } },
     "dislikes": { "int": { "min": 0, "max": 20 } },
     "avatar": {
@@ -22,6 +21,9 @@
     },
     "photo3": {
         "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"
+    },
+    "text":{
+      "loremSentences": { "minLength": 5, "maxLength": 200 }
     }
   }
 }
