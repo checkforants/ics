@@ -1,6 +1,6 @@
 {
   "Post": {
-    "body": {"minLength": 5, "maxLength": 150},
+    "body": {"loremWords": { "minLength": 5, "maxLength": 200 }},
     "comments": {
       "hasMany": "Comment"
     }
