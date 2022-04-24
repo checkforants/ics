@@ -13,7 +13,6 @@
       "hasMany": "Reply" }
   },
   "Reply":{
-    "id": "id",
     "body": { "string": {} }
   }
 }
