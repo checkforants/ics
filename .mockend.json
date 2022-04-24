@@ -1,11 +1,7 @@
 {
-    "User": {
-        "id": "id",
-        "posts": {
-            "hasMany": "Post"
-        }
-    },
-    "Post": {
-        "id": "id"
+  "Post": {
+    "userComments": {
+      "hasMany": "Comment"
     }
+  }
 }
