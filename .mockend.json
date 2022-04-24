@@ -26,7 +26,7 @@
       "loremSentences": { "minLength": 5, "maxLength": 400 }
     }
   },
-  "Users":{
+  "User":{
     "sex":{
       "string" : ["m", "f"]
     } 
