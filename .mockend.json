@@ -2,8 +2,6 @@
 
   "Post": { 
      "Comment":{
-      "firstName": { "regexp": "[A-Z][a-z]{5,10}" },
-      "secondName": { "regexp": "[A-Z][a-z]{5,10}" },
       "description":{
         "loremSentences": { "minLength": 100, "maxLength": 200 }
       }
