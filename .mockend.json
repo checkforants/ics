@@ -4,7 +4,7 @@
   },
   "Post": {
     "title": { "string": {} },
-    "belongsTo": "Post"
+    "belongsTo": "Post",
     "comments": {
       "hasMany": "Comment"
     }
