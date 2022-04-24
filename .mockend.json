@@ -1,9 +1,4 @@
 {   
-   "Comment":{
-      "description":{
-        "loremSentences": { "minLength": 100, "maxLength": 200 }
-      }
-    },
   "Post": { 
     "userComments": {
       "<type>": [],
