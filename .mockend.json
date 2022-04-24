@@ -8,8 +8,9 @@
   "Comment": {
     "body": { "string": {} },
     "replies": {
-      "hasMany": "Reply" },
+      "hasMany": "Reply" }
   },
   "Reply":{
-    "body": { "string": {} },
+    "body": { "string": {} }
+  }
 }
