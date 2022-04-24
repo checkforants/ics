@@ -28,7 +28,7 @@
   },
   "Users":{
     "sex":{
-      "regexp": "m|f?"
+      string['m', 'f']
     } 
   }
 }
