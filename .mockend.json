@@ -1,12 +1,12 @@
 {   
-
-  "Post": { 
-     "Comment":{
+   "Comment":{
       "description":{
         "loremSentences": { "minLength": 100, "maxLength": 200 }
       }
     },
+  "Post": { 
     "userComments": {
+      "<type>": [],
       "hasMany": "Comment"
     },
     "title": { "string": {} },
