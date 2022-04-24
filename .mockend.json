@@ -1,6 +1,6 @@
 {
   "Post": {
-    "body": {"loremWords": { "minLength": 5, "maxLength": 200 }},
+    "body": {"loremWords": { "minLength": 5, "maxLength": 20 }},
     "comments": {
       "hasMany": "Comment"
     }
@@ -15,8 +15,7 @@
   },
   "Reply":{
     "body": { "string": {} },
-    "reply":{
+    "comment":{
       "belongsTo": "Comment"
     }
-  
 }
