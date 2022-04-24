@@ -8,6 +8,12 @@
       }
     },
     "likes": { "int": { "min": 0, "max": 50 } },
-    "dislikes": { "int": { "min": 0, "max": 50 } }
+    "dislikes": { "int": { "min": 0, "max": 50 } },
+     "avatar": {
+        "regexp": "https://i\\.pravatar\\.cc/150?u=[0-9]{5}"
+      },
+      "photo": {
+        "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"
+      }
   }
 }
