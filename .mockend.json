@@ -1,12 +1,10 @@
 {
   "Post": {
     "userComments": {
-      "hasMany": "Comment"
+      "hasOne": "Comment"
     }
   }
-}
-{
- "Comment": {
-  "body": { "string": {} }
- }
+  "Comment": {
+    "body": { "string": {} }
+   }
 }
