@@ -1,4 +1,11 @@
-{
+{   
+  "Comment":{
+    "firstName": { "regexp": "[A-Z][a-z]{5,10}" },
+    "secondName": { "regexp": "[A-Z][a-z]{5,10}" },
+    "description":{
+      "loremSentences": { "minLength": 100, "maxLength": 200 }
+    }
+  },
   "Post": {    
     "userComments": {
       "hasMany": "Comment"
@@ -18,12 +25,5 @@
       "photo": {
         "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"
       }
-  },
-  "Comment":{
-    "firstName": { "regexp": "[A-Z][a-z]{5,10}" },
-    "secondName": { "regexp": "[A-Z][a-z]{5,10}" },
-    "description":{
-      "loremSentences": { "minLength": 100, "maxLength": 200 }
-    }
   }
 }
