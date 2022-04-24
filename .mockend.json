@@ -13,13 +13,13 @@
       "regexp": "https://i\\.pravatar\\.cc/150?u=[0-9]{5}"
     },
     "photo1": {
-      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080",
+      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"
     },
     "photo2": {
-        "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080",
+        "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"
     },
     "photo3": {
-        "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080",
+        "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"
     }
   }
 }
