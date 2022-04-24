@@ -3,5 +3,7 @@
     "userComments": {
       "hasMany": "Comment"
     }
-  }
+  },
+   "Comment": {
+    "body": { "string": {} }
 }
