@@ -23,7 +23,7 @@
         "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"
     },
     "text":{
-      "loremSentences": { "minLength": 5, "maxLength": 200 }
+      "loremSentences": { "minLength": 5, "maxLength": 400 }
     }
   }
 }
