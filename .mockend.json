@@ -9,7 +9,6 @@
     "body": { "string": {} },
     "replies": {
       "hasMany": "Reply" },
-
   },
   "Reply":{
     "body": { "string": {} },
