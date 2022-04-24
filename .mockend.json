@@ -8,7 +8,7 @@
   "Comment": {
     "body": { "string": {} },
     "replies": {
-      "hasMany": "reply" },
+      "hasMany": "Reply" },
     "post": {
       "belongsTo": "Post"
     }
