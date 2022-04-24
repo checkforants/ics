@@ -7,10 +7,10 @@
         "max": "2022-04-24T23:59:59Z"
       }
     },
-    "userId": { "int": { "min": 1, "max": 10 } },
+    "userId": { "int": { "min": 1, "max": 11 } },
     "female": { "boolean": {} },
-    "likes": { "int": { "min": 0, "max": 50 } },
-    "dislikes": { "int": { "min": 0, "max": 50 } },
+    "likes": { "int": { "min": 0, "max": 20 } },
+    "dislikes": { "int": { "min": 0, "max": 20 } },
     "avatar": {
       "regexp": "https://i\\.pravatar\\.cc/150?u=[0-9]{5}"
     },
