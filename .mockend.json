@@ -9,13 +9,8 @@
     "body": { "string": {} },
     "replies": {
       "hasMany": "Reply" },
-    "post": {
-      "belongsTo": "Post"
-    }
+
   },
   "Reply":{
     "body": { "string": {} },
-    "comment":{
-      "belongsTo": "Comment"}
-    }
 }
