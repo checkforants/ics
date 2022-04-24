@@ -1,11 +1,9 @@
 {
   "Post": {
-    "id": "id",
     "title": { "string": {} },
     "comments": {
       "hasMany": "Comment"
-    },
-     "likes": { "int": { "min": 0, "max": 1000000 } } 
+    }
   },
   "Comment": {
     "body": { "string": {} },
