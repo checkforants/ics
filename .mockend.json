@@ -13,7 +13,7 @@
       "belongsTo": "Post"
     }
   },
-  "Reply:{
+  "Reply":{
     "body": { "string": {} },
     "comment":{
       "belongsTo": "Comment"
