@@ -1,14 +1,22 @@
 {
   "Post": {
-    "title": { "string": {} },
+    "body": {"minLength": 5, "maxLength": 150},
     "comments": {
       "hasMany": "Comment"
     }
   },
   "Comment": {
     "body": { "string": {} },
+    "replies": {
+      "hasMany": "reply" },
     "post": {
       "belongsTo": "Post"
     }
-  }
+  },
+  "Reply:{
+    "body": { "string": {} },
+    "comment":{
+      "belongsTo": "Comment"
+    }
+  
 }
