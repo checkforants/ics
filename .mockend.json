@@ -3,7 +3,7 @@
     "userComments": {
       "hasOne": "Comment"
     }
-  }
+  },
   "Comment": {
     "body": { "string": {} }
    }
