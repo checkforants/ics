@@ -1,7 +1,7 @@
 {
   "Post": {    
     "userComments": {
-      "hasOne": "Comment"
+      "hasMany": "Comment"
     },
     "title": { "string": {} },
     "createdAt": {
