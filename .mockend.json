@@ -2,7 +2,7 @@
   "Post": {
     "title": { "string": {} },
     "comments": {
-      "hasMany": "Comment",
+      "hasMany": "Comment"
     },
      "likes": { "int": { "min": 0, "max": 1000000 } } 
   },
