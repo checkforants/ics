@@ -15,7 +15,7 @@
   },
   "Reply":{
     "body": { "string": {} },
-    "comment":{
+    "reply":{
       "belongsTo": "Comment"
     }
   
