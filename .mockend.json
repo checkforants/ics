@@ -1,13 +1,13 @@
 {
   "Post": {
-    "id": "id",
+    "id": {"id"},
     "body": {"loremWords": { "minLength": 5, "maxLength": 200 }},
     "comments": {
       "hasMany": "Comment"
     }
   },
   "Comment": {
-    "id": "id",
+    "id": {"id"},
     "body": { "string": {} },
     "replies": {
       "hasMany": "Reply" }
