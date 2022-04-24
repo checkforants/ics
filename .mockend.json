@@ -28,7 +28,7 @@
   },
   "User":{
     "avatar": {
-      "regexp": "https://i\\.pravatar\\.cc/1500?u=[0-9]{2}"
+      "regexp": "https://i\\.pravatar\\.cc/1500?img=[0-9]{2}"
     },
     "sex":{
       "string" : ["m", "f"]
