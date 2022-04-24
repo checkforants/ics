@@ -7,8 +7,8 @@
         "max": "2022-04-24T23:59:59Z"
       }
     },
-    "userId": { "int": { "min": 1, "max": 10 } }
-    "female": { "boolean": {} }
+    "userId": { "int": { "min": 1, "max": 10 } },
+    "female": { "boolean": {} },
     "likes": { "int": { "min": 0, "max": 50 } },
     "dislikes": { "int": { "min": 0, "max": 50 } },
     "avatar": {
