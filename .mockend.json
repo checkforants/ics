@@ -33,9 +33,15 @@
      "secondName": { "regexp": "[A-Z][a-z]{5,20}"},
      "nickName": { "regexp": "[A-Z][a-z]{5,20}"},
      "email": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"},
-    "sex":{
-      "string" : ["m", "f"]
-    } 
+      "sex":{
+        "string" : ["m", "f"]
+      },
+    "birthDate"{  
+      "dateTime": {
+        "min": "2000-01-01T00:00:00Z",
+        "max": "2015-12-31T23:59:59Z"
+      } 
+    }
   },
   "Comment":{
       "text":{
