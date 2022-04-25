@@ -29,6 +29,10 @@
     "avatar": {
       "regexp": "https://i\\.pravatar\\.cc/150\\?img=[0-6][0-9]"
     },
+     "firstName": { "regexp": "[A-Z][a-z]{5,15}" },
+     "secondName": { "regexp": "[A-Z][a-z]{5,20}"},
+     "nickName": { "regexp": "[A-Z][a-z]{5,20}"},
+     "email": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"},
     "sex":{
       "string" : ["m", "f"]
     } 
