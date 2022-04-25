@@ -36,7 +36,7 @@
       "sex":{
         "string" : ["m", "f"]
       },
-    "birthDate"{  
+    "birthDate":{  
       "dateTime": {
         "min": "2000-01-01T00:00:00Z",
         "max": "2015-12-31T23:59:59Z"
