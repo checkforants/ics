@@ -45,6 +45,8 @@
     }
   },
   "Comment":{
+      "postId": { "int": { "min": 1, "max": 101 } },
+      "userId": { "int": { "min": 1, "max": 11 } },
       "text":{
       "loremSentences": { "minLength": 5, "maxLength": 400 }
     }
