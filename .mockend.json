@@ -26,6 +26,7 @@
     }
   },
   "User":{
+    "id": { "int": { "min": 1, "max": 11 } },
     "avatar": {
       "regexp": "https://i\\.pravatar\\.cc/150\\?img=[0-6][0-9]"
     },
